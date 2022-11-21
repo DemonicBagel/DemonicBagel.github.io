@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+  color: white;
+  font: 13px sans-serif;
+}
+
+.tooltip {
+  width: 120px;
+  background-color: blue;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
