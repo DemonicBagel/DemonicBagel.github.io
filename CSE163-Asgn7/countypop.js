@@ -15,7 +15,7 @@ var svg = d3.select("body")
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-Promise.all([d3.json("us.geojson"), d3.csv("population.csv")]).then(function (
+Promise.all([d3.json("us.geojson"), d3.csv("pop.csv")]).then(function (
     values
   ) {
     mapData = values[0];
